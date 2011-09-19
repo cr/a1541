@@ -1,0 +1,19 @@
+a1541 - Phone home to your C1541 floppy disk drive
+(c) 2011 Christiane Ruetten, cr@23bit.net
+Licensed under GPLv2
+
+DESCRIPTION:
+This is an ongoing development project for establishing contact between a C1541 floppy disk drive and an USB enabled PC. Motivation is simple: I want to get my D64 images onto floppy disks, and that X*1541 cable I have requires a parallel port, but none of my systems has one.
+
+This problem has been solved a dozen times over, but I am learning a lot in the process.
+
+So, you wanted it, and here's the undocumented, heavily work-in-progress, possibly broken source code for your leisure, should you be capable of indulging yourself with code.
+
+Curent status:
+ - IEC complete
+ - Arduino can send files compiled into the firmware
+ - Host-side D64 parser in Python read access 50% done
+
+Coming up next:
+ - establishing serial link protocol and transport logic between Arduino and Host-code for transferring sectors and files on-the-fly.
+
